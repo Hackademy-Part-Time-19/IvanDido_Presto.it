@@ -1,0 +1,403 @@
+*{
+    font-family: 'Afacad', sans-serif;
+    color: white;
+}
+
+#container-body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://ecommerce-platforms.com/wp-content/uploads/2014/04/12-free-blurred-backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;   
+}
+
+#NavBar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+#buttonNav{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+#TitoloNav{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+#LOGO-nav{
+    height: 75px;
+    width: 160px;
+    cursor: pointer;
+}
+
+
+#ButtonAnnunci{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #101010;
+    border: none;
+}
+
+#ButtonRegistrati{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #31304D;
+    border: none;
+}
+
+#Frase-Ricerca{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#container-card{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#Card{
+    width: 300px;
+    height: 450px;
+    background-color: #151515;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    box-shadow: #31304D 1.95px 1.95px 2.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sezione-img-card{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 20px;
+}
+
+#nome-prodotto{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#descrizione-prodotto{
+    font-size: 15px;
+}
+
+#prezzo-prodotto{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.sezione-dati-card{
+    padding: 15px;
+    height: 250px;
+    width: 300px;
+}
+
+.style-button-card{
+    width: 200px;
+    border-radius: 10px;
+    background-color: #31304D;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+    z-index: 0;
+}
+
+/* STYLE ELEMENTI LANDING PAGE */
+
+#sezione-presentazione-home{
+    background-color: black;
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#img-landingpage{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+#Frase-presentazione{
+    font-size: 35px;
+}
+
+#sezione-frase-presentazione{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-collegamento-paginaCatalogo{
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #31304D;
+    border: none;
+}
+
+#sezione-interazioni-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+}
+
+#sezione-filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frase-filtro{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.elemento-selezione-filtraggio{
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #202020;
+    border: none;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-sezione{
+    margin-bottom: 30px;
+}
+
+.titolo-select{
+    position:relative;
+    top: 5px;
+} 
+
+.select-categoria{
+    background-color: #202020;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+#input-nome{
+    background-color: #202020;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    width: 70%;
+    position: relative;
+    bottom: 5px;
+}
+
+#container-img-filter{
+    width: 100%;
+    height: 200vh;
+}
+
+.div-collegamento{
+    box-shadow: #31304D 1.95px 1.95px 2.6px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.div-title-filter{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-img-filter{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+#scheda-prodotto{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#contenitore-prodotto{
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    border-radius: 20px;
+    background-color: #202020;
+    box-shadow: #31304D 1.95px 1.95px 2.6px;
+
+}
+
+#div-img-scheda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 2;
+}
+
+.style-img-scheda{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.style-button-aggiungi{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #31304D;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.style-button-chiudi{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #aa0000;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#div-button-scheda{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenitore-info-prodotto{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*STYLE ELEMENTI PAGINE REGISTRAZIONE */
+
+#container-frase-registrazione{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container-div-registrazione{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-parametri-registrazione{
+
+    width: 50vw;
+    height: 90vh;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #31304D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: black 1.95px 1.95px 2.6px;
+}
+
+#container-inserimento-parametri{
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#button-registrati{
+    background-color: darkgreen;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
